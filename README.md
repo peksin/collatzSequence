@@ -1,1 +1,3 @@
 collatzSequence
+
+This is me practising Python...
