@@ -1,3 +1,6 @@
+# Prints out the number of iterations required for each individual integer
+# Pekka Sinkkonen, 8.8.2018
+
 import time
 import numpy
 import decimal

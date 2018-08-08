@@ -6,7 +6,6 @@ def collatz(number):
         number = 3 * number + 1
         return number
 
-
 iterationCounter = 0
 
 while True:
@@ -23,11 +22,3 @@ while collatz(numberUser) != 1:
     iterationCounter = iterationCounter + 1
     continue
 print(collatz(numberUser))
-
-
-
-#  Write software to print out numbers of
-#  iterations required per each input number
-#  Make a plot of the number of iterations over the input number in
-#  LibreOffice, and then in R/Python. Does the sequence work with floating
-#  point numbers? Will probably need to trim them out a bit...
