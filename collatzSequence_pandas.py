@@ -5,11 +5,12 @@ import matplotlib.pyplot as plt
 import os
 import seaborn as sns
 
+
 os.chdir('/home/pekka/koodit/python/collatzSequence/')
 
 # Read the 'output.csv'
 
-results = pd.read_csv('output.csv', header = None,
+results = pd.read_csv('million.csv', header = None,
     names = ['Integer', 'Iterations'])
 
 ###########################################################
@@ -27,13 +28,17 @@ results = pd.read_csv('output.csv', header = None,
 
 # Print a scatter plot with seaborn
 # And also set a nifty theme from seaborn
+#
+# sns.set_style("white")
+# plot = sns.scatterplot(results.Integer, results.Iterations,
+#                         s = 10,
+#                         color = "blue",
+#                         marker = ".")
+#
+#
+# fig = plot.get_figure()
+# fig.savefig('plot.png', dpi = 600)
 
-sns.set_style("white")
-plot = sns.scatterplot(results.Integer, results.Iterations,
-                        s = 10,
-                        color = "blue",
-                        marker = ".")
+############################################################
 
-
-fig = plot.get_figure()
-fig.savefig('plot.png', dpi = 600)
+# Print a heatmap with pandas

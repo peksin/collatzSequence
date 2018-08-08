@@ -7,6 +7,7 @@ import calcModules as cM
 
 
 print("Welcome to the Collatz sequence calulation and visualization tool.\nWhat would you like to do? (Choose with numbers)")
+
 print('(1) Print out the sequence for an integer\n'
       '(2) Count the number of iterations (and by you I mean the computer)\n'
       'and export the results to "output.csv"')
