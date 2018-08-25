@@ -34,7 +34,7 @@ int main(void)
 		intCalc = collatz(intCalc);
 		intCounter ++;
 	}
-
+        printf("1\n");
 	timeEnd = clock();
 	timeElapsed = (double)(timeEnd - timeBegin);
 
