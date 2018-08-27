@@ -1,0 +1,8 @@
+Versions:
+
+Calculations up to 1 000 000 (one million)
+Python - about 49 secs (with results being written to an array and only written to a csv file at the end
+C - about 0,8 seconds with results being written to the csv file as they go
+
+Calculations up to 100 000 000 (one hundred million)
+C - about 115 seconds with results being written to the csv file as they go
