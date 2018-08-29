@@ -35,10 +35,10 @@ int main(void)
 	fp = fopen("calculations.csv", "w+");
 
 	// Create an array for the "beaten path" optimization (patent also pending)
-	int resultArray [intCalc];
+	unsigned long resultArray [intCalc + 1];
 	
 	// Populate the array with zeroes
-	for(int i = 0; i <= intCalc; i++)
+	for(unsigned long i = 0; i <= intCalc; i++)
 	{
 		resultArray[i] = 0;
 	}
@@ -53,9 +53,11 @@ int main(void)
 		intCounter = 0;
 
 		// Run the collatz sequence
-		while(dataPointCalc != 1)
+		while(dataPointCalc > 1)
 		{
-			// If the spot (integer we're looking at) in the resultArray is zero or it's outside the array, the program hasn't calculated that integer before (or we'll skip it for now altogether)
+			// If the spot (integer we're looking at) in the resultArray is zero or it's outside the 
+			// array, the program hasn't calculated that integer before 
+			// (or we'll skip it for now altogether)
 			if(dataPointCalc > intCalc)				
 			{
 				// Carry on with the sequence as usual

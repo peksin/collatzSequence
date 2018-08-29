@@ -6,3 +6,4 @@ C - about 0,8 seconds with results being written to the csv file as they go
 
 Calculations up to 100 000 000 (one hundred million)
 C - about 115 seconds with results being written to the csv file as they go
+C - about 13 seconds with collatz_malloc (including beaten path -algorithm)
