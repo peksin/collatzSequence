@@ -1,6 +1,6 @@
 I ran into Collatz's conjecture while working through Al Sweigart's Automate The Boring Stuff. I guess it was meant to demonstrate simple if-else structure but I quickly got curious about the conjecture's properties and started expanding on the initial idea. Because of how little experience I had at the time of programming I had to google quite a bit about file I/O and calculation over large datasets, but I got the code to work to a point where I could calculate the amount of "steps" it would take to get from an integer back to 1, and automate this to a large sequence of integers if need be.
 
-It became obvious that python was struggling when calculating the steps for millions of integers so I ported the code over to the only other language I knew, which was C. The speed difference was quite staggering even without compiler optimizations: 
+It became obvious that python was struggling when calculating the steps for millions of integers so I ported the code over to the only other language I knew, which was C. The speed difference was quite staggering (for a noob such as myself) even without compiler optimizations: 
 ```
 Calculations up to 1 000 000 (one million)
 Python - about 49 secs (with results being written to an array and only written to a csv file at the end
