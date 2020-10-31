@@ -22,7 +22,7 @@ the different "algorithms" came from. What you could call the "final form" is co
 
 After I had a dataset of the first million integers and the number of steps required to reach 1 from each of them I visualized the whole thing as a heat map with R, and the result was quite fascinating to look at.
 
-![graph](![Drag Racing](https://raw.githubusercontent.com/peksin/collatzSequence/master/Rplot02.png))
+(![Drag Racing](https://raw.githubusercontent.com/peksin/collatzSequence/master/Rplot02.png))
 
 PS. My computer gave out trying to visualize datasets larger than a million data points. The txt file itself with the billion
 data points was something like 13 gigabytes.
