@@ -2,6 +2,8 @@ I ran into Collatz's conjecture while working through Al Sweigart's Automate The
 
 It became obvious that python was struggling when calculating the steps for millions of integers so I ported the code over to the only other language I knew, which was C. The speed difference was quite staggering (for a noob such as myself) even without compiler optimizations: 
 ```
+All computations done with i7 6700k (utilizing only a single core)
+
 Calculations up to 1 000 000 (one million)
 Python - about 49 secs (with results being written to an array and only written to a csv file at the end
 C - about 0,8 seconds with results being written to the csv file as they go
