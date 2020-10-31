@@ -7,3 +7,12 @@ C - about 0,8 seconds with results being written to the csv file as they go
 Calculations up to 100 000 000 (one hundred million)
 C - about 115 seconds with results being written to the csv file as they go
 C - about 13 seconds with collatz_malloc (including beaten path -algorithm)
+C - about 3,3 seconds without writing to disk (w/ everything immediately simultaneously -algorithm)
+C - about 4,5 seconds without writing to disk (w/ beaten path -algorithm)
+C - about 13 seconds (w/ everything immediately simulaltaneously -algorithm). No noticeable change in speed
+
+Calculations up to 1000 000 000 (one billion)
+C - about 46 seconds without writing to disk (w/ beaten path -algorithm)
+C - about 33 seconds without writing to disk (w/ everything immediately simultaneously -algorithm)
+
+

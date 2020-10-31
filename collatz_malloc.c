@@ -91,12 +91,12 @@ int main(void)
 	FILE *fp;	
 	fp = fopen("calculations.csv", "w+");
 
-    for(unsigned long dataPoint = 1; dataPoint <= intCalc; dataPoint++)
+   /* for(unsigned long dataPoint = 1; dataPoint <= intCalc; dataPoint++)
 	{
 	    // Write the number of iterations required and the 
         // original number into the csv-file
         fprintf(fp, "%ld,%ld\n", dataPoint, resultArray[dataPoint]);
-    }
+    } */
 
 	// Close the stream
 	fclose(fp);
